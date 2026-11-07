@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roteiro para estudar Java do básico ao avançado</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Aprenda Java na ordem certa, sem se perder no caminho</h1>
+      <p class="lead">Um roteiro do zero ao avançado, com tópicos para marcar, dicas de estudo e um mini projeto por etapa. Seu progresso fica salvo neste navegador.</p>
+      <a class="btn" href="#roteiro">Ver o roteiro</a>
+    </div>
+    <pre class="code" aria-label="Exemplo de código Java"><code><span class="k">public class</span> <span class="t">Main</span> {
+    <span class="k">public static void</span> main(String[] args) {
+        System.out.println(<span class="s">"Olá, Java!"</span>);
+    }
+}</code></pre>
+  </div>
+</header>
+
+<nav class="bar" aria-label="Progresso">
+  <div class="wrap bar-in">
+    <div class="filters" role="group" aria-label="Filtrar nível">
+      <button class="chip on" data-f="todos">Todos</button>
+      <button class="chip" data-f="basico">Básico</button>
+      <button class="chip" data-f="inter">Intermediário</button>
+      <button class="chip" data-f="avancado">Avançado</button>
+      <button class="chip" data-f="pro">Mercado</button>
+    </div>
+    <div class="prog">
+      <div class="track"><div id="fill"></div></div>
+      <span id="pct">0%</span>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section id="metodo">
+    <h2>Como estudar de verdade</h2>
+    <div class="rules" id="rules"></div>
+  </section>
+
+  <section id="roteiro">
+    <h2>O roteiro</h2>
+    <div id="levels"></div>
+    <button class="ghost" id="reset">Zerar progresso</button>
+  </section>
+
+  <section id="recursos">
+    <h2>Onde praticar e se aprofundar</h2>
+    <ul class="res" id="res"></ul>
+  </section>
+</main>
+
+<footer class="wrap foot">Estude um pouco todo dia. Constância vence maratona de fim de semana.</footer>
+<script src="script.js"></script>
+</body>
+</html>
